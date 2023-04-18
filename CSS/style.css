@@ -1,0 +1,57 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+main {
+  padding: 20px;
+  /* display: flex; */
+}
+
+form {
+  display: inline-block;
+  padding: 20px;
+  border: 1px solid #000;
+  width: 500px;
+  border-radius: 8px;
+}
+
+form input[type="text"],
+form input[type="email"],
+form input[type="number"] {
+  padding: 8px;
+  width: 300px;
+  margin: 4px 0;
+}
+
+.action tbody tr td:first-child {
+  display: inline-block;
+  margin-right: 20px;
+  /* width: 30px; */
+}
+
+form button {
+  display: block;
+  width: 100%;
+  padding: 8px;
+  border-radius: 6px;
+}
+
+.info {
+  margin-top: 20px;
+  border: 1px solid #000;
+}
+
+.search {
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+}
+
+.search input {
+  margin-left: 20px;
+  flex: 1;
+  padding: 8px;
+  margin-right: 5px;
+}
